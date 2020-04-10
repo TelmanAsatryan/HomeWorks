@@ -22,7 +22,7 @@ namespace Lesson1
             {
                 for (int j = i; j<length/2; j++)
                 {
-                   
+                    Console.Write("#");
                 }
                 for (int j = i; j <length/2; j++)
                 {
