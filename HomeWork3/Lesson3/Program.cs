@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lesson2
+namespace Lesson3
 {
     class Program
     {
@@ -18,11 +18,12 @@ namespace Lesson2
             {
                 arr[i] = Convert.ToInt32(Console.ReadLine());
             }
-            ArrayManager arrayManager=new ArrayManager(arr);
+
+            Console.Write("write your element  - ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            ArrayManager arrayManager=new ArrayManager(arr,num);
             arrayManager.PrintRes();
             Console.ReadKey();
         }
-
-
     }
 }
